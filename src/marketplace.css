@@ -1,0 +1,35 @@
+.marketplace {
+    padding: 20px;
+}
+
+.marketplace-content {
+    display: flex;
+    flex-direction: column; /* Ensure the layout flows vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    width: 100%; 
+    max-width: 1200px; 
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px; 
+    text-align: center;
+    border-radius: 8px; 
+    transition: box-shadow 0.3s; 
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.product-card img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+}

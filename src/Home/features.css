@@ -1,0 +1,40 @@
+.features-list {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 200px; 
+    background-color:#5b87ff;
+}
+
+.feature-card {
+    flex: 1 1 calc(25% - 20px); 
+    margin: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(252, 252, 252, 0.1); 
+    padding: 15px;
+    background-color: #79a9fc;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05); 
+}
+
+.feature-card h3 {
+    font-size: 1.2em; 
+    margin: 0 0 10px; 
+}
+
+.feature-card ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.feature-card li {
+    margin-bottom: 5px; 
+}
+
+.feature-card i {
+    margin-right: 8px; 
+}
+

@@ -1,0 +1,36 @@
+.dashboard-layout {
+    min-height: 100vh;
+}
+.header {
+    padding-top: 0px;
+    background: #97bde0;
+}
+.content {
+    padding: 10px 24px;
+    display: flex; 
+    min-height: 280px;
+}   
+
+
+.sider{
+    height: 120vh;
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+.logo {
+    color:aquamarine;
+    margin: 30px 0;
+    font-size: 1.5rem;
+}
+.menu-bar{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}
+.ant-menu-item {
+    background-color: rgb(255, 255, 255);
+    color: rgb(220, 15, 15);
+}

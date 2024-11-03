@@ -1,0 +1,62 @@
+.sidebar {
+    background-color: #1d7dd7be; 
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .menu-bar {
+    background-color: #1d7dd709;   
+    color: #fff;
+    border-right: none;
+    margin-top: 70px; 
+  }
+  
+  .menu-bar .ant-menu-item {
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu-bar .ant-menu-item:hover {
+    background-color: #dde5ec; 
+    color: #24597b;
+  }
+  
+  .menu-bar .ant-menu-item-selected {
+    background-color: #98c1e6; 
+    color: #fff;
+  }
+  
+  .menu-bar .ant-menu-item-selected .anticon {
+    color: #fff; 
+  }
+  
+  .menu-bar .ant-menu-item .anticon {
+    font-size: 18px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-bar .ant-menu-item:hover .anticon {
+    transform: scale(1.1);
+  }
+  
+  .triger-btn {
+    background-color: #001529;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .triger-btn:hover {
+    background-color: #ffffff;
+  }
+  

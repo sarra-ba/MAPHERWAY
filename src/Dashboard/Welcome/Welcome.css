@@ -1,0 +1,87 @@
+.header-icon{
+    background: transparent;
+    padding: 1%;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    font-size: 24px; 
+
+
+}
+.custom-avatar-icon {
+    background-color: #a1beec; 
+    border: 2px solid #ffffff; 
+  }
+  
+  .custom-avatar-icon .anticon {
+    font-size: 20px; 
+    color: #fff; 
+  }
+.notification{
+    background: transparent;
+    padding: 1%;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 24px; 
+
+}
+.ant-btn:hover{
+    color:rgb(30, 209, 149);
+    border-color: rgb(46, 191, 85);
+}
+.ant-btn-primary {
+    background-color: rgb(3, 139, 105);
+}
+.ant-btn-primary:hover {
+    background-color: aquamarine;
+    color:rgb(101, 134, 159)
+}
+.primary--color {
+    color:rgb(31, 77, 112)
+}
+.primary--light--color  {
+    color:rgb(19, 148, 168)
+}
+.secondary--color {
+    color:rgb(43, 201, 148)
+}
+.light--color {
+    color:rgb(4, 52, 36)
+}
+.gray--color {
+    color: rgb(64, 116, 83);
+}
+
+
+.welcome-message {
+    color: #3c6fb1; 
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease;
+}
+  
+  .welcome-message:hover {
+    color: #D32F2F; 
+    transform: scale(1.05);
+  }
+  
+.welcome-title {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.search-and-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
