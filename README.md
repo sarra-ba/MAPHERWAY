@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Web Application Overview
+This web application is designed to support both normal users and police officers, providing a secure platform to ensure the safety and well-being of users, especially vulnerable women. Here are the main features and functionalities:
+1. Dual Interfaces
+The application offers two interfaces:
+Normal User Interface: For regular users who can access the application’s standard functionalities.
+Police Officer Interface: Accessible only after logging in as a police officer. This interface provides additional features for handling alerts and tracking incidents.
+2. Notification System
+Our notification system is designed to prioritize the safety of users. It sends real-time alerts exclusively to police officers, including the exact location of the targeted women in distress. This system ensures that police officers can respond promptly to incidents as they occur.
+3. Messaging System
+The app includes a messaging system to facilitate communication among all users. This feature allows both normal users and police officers to communicate within the platform, promoting swift and secure exchanges in case of emergencies or other critical situations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+IoT Smart Monitoring System for Public Spaces
+This project involves the deployment of an IoT-based sensor network to monitor environmental conditions in public spaces. By leveraging an ESP32-CAM microcontroller connected to audio and light sensors, this system continuously collects data on noise levels and lighting conditions. These sensors provide real-time monitoring to help manage and optimize the environment, improving public comfort and safety.
+Project Structure
+Hardware Setup:
+ESP32-CAM Microcontroller: This device serves as the primary controller, gathering data from attached sensors and processing it for transmission.
+Audio Sensor: Measures ambient noise levels, allowing for real-time monitoring of sound pollution in public spaces.
+Light Sensor: Monitors lighting conditions, useful for adjusting lighting systems to improve safety and energy efficiency.
+Data Transmission and Cloud Integration:
+Sensor data is sent via Wi-Fi to a cloud platform hosted on AWS. This enables centralized data management, storage, and analysis.
+Firebase Firestore: Used as the database to store the collected data, providing a scalable and real-time data solution for future analytics.
+REST API Endpoints: Data from sensors is sent to Firebase through REST API calls, ensuring smooth and secure communication between the IoT devices and the cloud.
+User Interface:
+A web application serves as the user interface, allowing administrators and stakeholders to view real-time and historical data visualizations.
+The app includes a voice assistant feature that interacts with users to provide insights on environmental conditions and stress management recommendations based on monitored data.
+Data Processing and Alerts:
+On the cloud server, incoming data is processed to trigger alerts when noise or light levels exceed preset thresholds. This can help authorities quickly address issues like excessive noise or insufficient lighting.
+In the future, machine learning models could be integrated to detect patterns and predict environmental changes.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Web Application Overview
+This web application is designed to support both normal users and police officers, providing a secure platform to ensure the safety and well-being of users, especially vulnerable women. Here are the main features and functionalities:
+1. Dual Interfaces
+The application offers two interfaces:
+Normal User Interface: For regular users who can access the application’s standard functionalities.
+Police Officer Interface: Accessible only after logging in as a police officer. This interface provides additional features for handling alerts and tracking incidents.
+2. Notification System
+Our notification system is designed to prioritize the safety of users. It sends real-time alerts exclusively to police officers, including the exact location of the targeted women in distress. This system ensures that police officers can respond promptly to incidents as they occur.
+3. Messaging System
+The app includes a messaging system to facilitate communication among all users. This feature allows both normal users and police officers to communicate within the platform, promoting swift and secure exchanges in case of emergencies or other critical situations.
